@@ -2,8 +2,8 @@
 <img src="https://github.com/user-attachments/assets/2a666083-7f44-48eb-ab51-728daafd40dd" />
 </p>
 
-<h1>Preparing Active Directory Infrastructure in Azure</h1>
-This tutorial outlines how to set up the required infrastructure to use Active Directory within Microsoft Azure.<br />
+<h1>Deploying Active Directory</h1>
+This tutorial outlines how to set up Active Directory, preparing for real world usage.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -18,8 +18,8 @@ This tutorial outlines how to set up the required infrastructure to use Active D
 - Windows 10</b> (21H2)
 - Windows Server 2022
 
-
-<h2>Install Active Directory</h2>
+<h2>Deployment</h2>
+<h3>Install Active Directory</h3>
 <p>
 <img src="https://github.com/user-attachments/assets/9eee39a8-7a0a-4e84-b6f6-7afdfbf287e4" />
 <img src="https://github.com/user-attachments/assets/607b005a-a423-4282-968f-55fae04dcec9" />
@@ -34,7 +34,7 @@ This tutorial outlines how to set up the required infrastructure to use Active D
 </ol>
 <br />
 
-<h2>Create a Domain Admin user within the domain</h2>
+<h3>Create a Domain Admin user within the domain</h3>
 <p>
 <img src="https://github.com/user-attachments/assets/7393846d-73ca-4084-8af0-a7cc62003b48"/>
 </p>
@@ -52,7 +52,7 @@ This tutorial outlines how to set up the required infrastructure to use Active D
 </ol>
 <br />
 
-<h2>Join Client-1 to the Domain</h2>
+<h3>Join Client-1 to the Domain</h3>
 <p>
 <img src="https://github.com/user-attachments/assets/28826171-6f22-4a90-94ee-dfe6e6d1c4f8" />
 </p>
@@ -64,7 +64,7 @@ This tutorial outlines how to set up the required infrastructure to use Active D
 </ol>
 <br />
 
-<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+<h3>Setup Remote Desktop for non-administrative users on Client-1</h3>
 <p>
 <img src="https://github.com/user-attachments/assets/ad05db81-e628-4278-b25f-ef612ddebf49" />
 </p>
@@ -77,7 +77,7 @@ This tutorial outlines how to set up the required infrastructure to use Active D
 <b>You can now log into Client-1 as a normal, non-administrative user</b>
 <br />
 
-<h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
+<h3>Create a bunch of additional users and attempt to log into client-1 with one of the users</h3>
 <p>
 <img src="https://github.com/user-attachments/assets/9a4d2bed-b7d6-4e80-a8b0-89459362ac9c" />
 </p>
